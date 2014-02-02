@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} :: {{ site.name }}</title>
+    <!-- Bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="/">Početna</a></li>
+          <li><a href="/kontakt.html">Kontakt</a></li>
+        </ul>
+        <h1>
+          Mama Dolisa <small>made with love</small>
+        </h1>
+      </div>
+
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Platnene pelene <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {% for pelena in site.categories.platnene_pelene %}
+                <li><a href="{{ pelena.url }}">{{ pelena.title }}</a></li>
+                {% endfor %}
+                <li class="divider"></li>
+                {% for krpica in site.categories.krpice %}
+                <li><a href="{{ krpica.url }}">{{ krpica.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Coveri <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {% for cover in site.categories.coveri %}
+                <li><a href="{{ cover.url }}">{{ cover.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vreće <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {% for vreca in site.categories.vrece %}
+                <li><a href="{{ vreca.url }}">{{ vreca.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosiljke <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sling marama</a></li>
+                <li><a href="#">Elastične marame</a></li>
+                <li><a href="#">MEI TAI</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ulošci <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Menstrualni ulošci – regular</a></li>
+                <li><a href="#">Menstrualni ulošci – noćni</a></li>
+                <li><a href="#">Dnevni ulošci</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Za dojilje <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Jastučići za grudi – za dojilje i trudnice</a></li>
+                <li><a href="#">Marama za dojenje</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Podbradnjak <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Bandana style</a></li>
+                <li><a href="#">Podbradnjak koji ide preko ramena</a></li>
+                <li><a href="#">Super large podbradnjak</a></li>
+                <li><a href="#">Podbranjak "normal" veličine</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Podložak za kolica</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+      <div id="page">
+        <div id="content" class="col-lg-9">
+        {{ content }}
+        </div>
+        <div id="sidebar" class="col-lg-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Facebook</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Korisni linkovi</h3>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
