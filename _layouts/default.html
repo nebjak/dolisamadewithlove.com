@@ -76,9 +76,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosiljke <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Sling marama</a></li>
-                <li><a href="#">Elastične marame</a></li>
-                <li><a href="#">MEI TAI</a></li>
+                {% for nosiljka in site.categories.nosiljke %}
+                <li><a href="{{ nosiljka.url }}">{{ nosiljka.title }}</a></li>
+                {% endfor %}
               </ul>
             </li>
             <li class="dropdown">
