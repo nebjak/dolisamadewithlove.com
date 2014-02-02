@@ -84,9 +84,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ulošci <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Menstrualni ulošci – regular</a></li>
-                <li><a href="#">Menstrualni ulošci – noćni</a></li>
-                <li><a href="#">Dnevni ulošci</a></li>
+                {% for ulozak in site.categories.ulosci %}
+                <li><a href="{{ ulozak.url }}">{{ ulozak.title }}</a></li>
+                {% endfor %}
               </ul>
             </li>
             <li class="dropdown">
