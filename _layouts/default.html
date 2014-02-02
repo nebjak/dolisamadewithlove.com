@@ -92,8 +92,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Za dojilje <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Jastučići za grudi – za dojilje i trudnice</a></li>
-                <li><a href="#">Marama za dojenje</a></li>
+                {% for zd in site.categories.za_dojilje %}
+                <li><a href="{{ zd.url }}">{{ zd.title }}</a></li>
+                {% endfor %}
               </ul>
             </li>
             <li class="dropdown">
