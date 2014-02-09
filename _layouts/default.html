@@ -100,10 +100,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Podbradnjak <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Bandana style</a></li>
-                <li><a href="#">Podbradnjak koji ide preko ramena</a></li>
-                <li><a href="#">Super large podbradnjak</a></li>
-                <li><a href="#">Podbranjak "normal" veličine</a></li>
+                {% for pb in site.categories.podbradnjak %}
+                <li><a href="{{ pb.url }}">{{ pb.title }}</a></li>
+                {% endfor %}
               </ul>
             </li>
             <li>
