@@ -3,6 +3,24 @@ layout: post
 title:  "Elastične marame"
 date:   2014-02-01 10:00:00
 categories: nosiljke
+imgs:
+  - elasticne-marame/img_1.jpg
+  - elasticne-marame/img_2.jpg
+  - elasticne-marame/img_3.jpg
+  - elasticne-marame/img_4.jpg
+  - elasticne-marame/img_5.jpg
+  - elasticne-marame/img_6.jpg
+  - elasticne-marame/img_7.jpg
+  - elasticne-marame/img_8.jpg
+  - elasticne-marame/img_9.jpg
+  - elasticne-marame/img_10.jpg
+  - elasticne-marame/img_11.jpg
+  - elasticne-marame/img_12.jpg
+  - elasticne-marame/img_13.jpg
+  - elasticne-marame/img_14.jpg
+  - elasticne-marame/img_15.jpg
+  - elasticne-marame/img_16.jpg
+  - elasticne-marame/img_17.jpg
 ---
 
 Načinjene od mekanog, nježnog, ali čvrstog pamuka, marame su anatomski ispravne nosiljke, nosive u nekoliko položaja.
