@@ -1,8 +1,17 @@
 ---
 layout: post
-title:  "One size fitted pocket"
-date:   2014-02-01 10:00:00
+title:  "One size fitted split"
+date:   2014-02-01 10:05:00
 categories: platnene_pelene
+imgs:
+  - one-size-fitted-split/img_1.jpg
+  - one-size-fitted-split/img_2.jpg
+  - one-size-fitted-split/img_3.jpg
+  - one-size-fitted-split/img_4.jpg
+  - one-size-fitted-split/img_5.jpg
+  - one-size-fitted-split/img_6.jpg
+  - one-size-fitted-split/img_7.jpg
+  - one-size-fitted-split/img_8.jpg
 ---
 
-Pelena se sastoji od dva (oko drukera je umetnuto dovoljno pamuka u trećem sloju, budući da im je potrebna debljina za čvrsto prianjanje) sloja materijala, i „džepa“, u koji se umeće upojno punjenje po želji. Obično je dovoljna tetra pelena, koja se idealno presavije dva puta na pola, pa na „tri“, i čini odlično punjenje, ne gubeći širinu zamišljenu za korištenje pri širokom previjanju bebe. Pelena se jako brzo suši, budući da ima tako malo slojeva, odlično se opere, jer je deterdžent u mogućnosti doprijeti do svih dijelova materijala, i najekonomičnija je cijenom među fitted pelenama, budući da ju "punite" upojnim slojevima sami (tetra) 
+Ova pelena dolazi u kompletu s odvojivim ulošcima (otuda naziv fitted split). Upojni slojevi u pelenu nisu ušiveni radi bržeg sušenja, a lako se za pelenu pričvrste pomoću drukera, koji nikad ne dolaze u dodir bebinom kožom...ovakva se pelena koristi na jednom djetetu od početka do kraja pelenaštva, i podešava pomoću mnoštva drukera, na veću ili manju veličinu
