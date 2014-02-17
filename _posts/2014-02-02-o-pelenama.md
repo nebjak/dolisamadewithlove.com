@@ -62,3 +62,5 @@ Pelene se mogu kopčati na čičak ili drukere, a materijali koje koristim su na
 Svim pelenicama osim AIO i AI2 potreban je cover. 
 
 Peru se na 60 stupnjeva, medjutim, pelenice koje ja šivam moguće je normalno iskuhavati, neće pustiti boju.
+
+Dostupni dezeni za platnene pelene se nalaze u galeriji ispod.
