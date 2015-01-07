@@ -1,4 +1,3 @@
 name: Dolisa made with love
-markdown: redcarpet
-pygments: true
+markdown: kramdown
 permalink: none
